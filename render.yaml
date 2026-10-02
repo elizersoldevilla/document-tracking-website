@@ -1,0 +1,36 @@
+# Render Blueprint - CLEAR Document Tracking Website
+# Deploy with: Copy this file to a new Web Service in Render Dashboard
+
+services:
+  - type: web
+    name: clear-document-tracking
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_ORIGIN
+        value: https://centralizedlogging.ct.ws
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: "4000"
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        value: clear_live_demo
+      - key: DB_SSL
+        value: "true"
+      - key: ALLOW_DEMO_SEED
+        value: "false"
+      - key: DEMO_LOGIN_ENABLED
+        value: "false"
