@@ -1,0 +1,31 @@
+CLEAR — Endorsement Checklist (Professor / Admin)
+=================================================
+
+PROFESSOR REVIEW
+----------------
+[ ] Student identity matches the assigned request.
+[ ] Purpose of the document is stated and reasonable.
+[ ] Description contains enough detail to act on.
+[ ] Remarks recorded when something must be corrected.
+[ ] Decision recorded:
+      UNDER_REVIEW    - continue reviewing
+      SIGNED_APPROVED - approve and sign
+      ENDORSED_TO_ADMIN - forward to the administration office
+
+ADMIN PROCESSING
+----------------
+[ ] Request status is ENDORSED_TO_ADMIN.
+[ ] Move to ADMIN_PROCESSING when work begins.
+[ ] Move to READY_FOR_PICKUP when the document can be claimed.
+[ ] Move to COMPLETED after the document has been released.
+[ ] Remarks recorded for any delay or condition on release.
+
+RECORD KEEPING
+--------------
+- Every transition stores: previous status, new status, reviewer name, remarks,
+  and a time stamp. These entries are visible to the student and form the
+  audit trail of the request.
+- Version conflicts are rejected automatically; refresh and retry if you see a
+  version conflict error.
+
+CLEAR — Document Tracking System

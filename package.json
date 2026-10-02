@@ -1,0 +1,52 @@
+{
+  "name": "clear-document-tracking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Document and requirement progress tracking system for schools",
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c green,cyan \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "node --watch server/src/index.js",
+    "dev:client": "vite --config client/vite.config.js",
+    "build": "vite build --config client/vite.config.js",
+    "start": "node server/src/index.js",
+    "db:migrate": "node server/src/db/migrate.js",
+    "db:seed": "node server/src/db/seed.js",
+    "db:setup": "npm run db:migrate && npm run db:seed",
+    "test": "node --test \"server/test/*.test.js\"",
+    "lint": "eslint .",
+    "check": "npm run lint && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.468.0",
+    "mysql2": "^3.14.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.18.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@dietrichgebert/ponytail": "^4.10.0",
+    "@eslint/js": "^9.36.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "supertest": "^7.1.4",
+    "vite": "^7.1.7"
+  }
+}

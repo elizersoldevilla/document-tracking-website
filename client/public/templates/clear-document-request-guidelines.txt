@@ -1,0 +1,35 @@
+CLEAR — Document Request Guidelines
+===================================
+
+1. Before you request
+   - Confirm the document you need (transcript, certification, clearance, letter).
+   - Pick the professor who will review and endorse your request. Requests are
+     routed only to the professor you select.
+
+2. Submitting a request
+   - Go to New request, choose your professor, and enter a title (3-120
+     characters) and a description (10-2000 characters) explaining what you need
+     and why.
+   - Submitting locks the request into the review queue. You will see it on your
+     dashboard immediately with the status SUBMITTED.
+
+3. Following the workflow
+   - SUBMITTED          Sent to your selected professor.
+   - UNDER_REVIEW       The professor is reviewing your request.
+   - SIGNED_APPROVED    The professor has approved and signed it.
+   - ENDORSED_TO_ADMIN  Forwarded to the administration office.
+   - ADMIN_PROCESSING   The administration is processing the document.
+   - READY_FOR_PICKUP   The document is ready at the designated office.
+   - COMPLETED          The request has been claimed and closed.
+
+4. Decisions and remarks
+   - Every decision is recorded with the reviewer's name, time stamp, and any
+     remarks. Open the Decision Hub to see them, or the Revision Desk to focus
+     on requests with remarks.
+
+5. Picking up the document
+   - When the status is READY FOR PICKUP, present your request reference
+     (REQ-XXXXX) at the designated office. After claiming it, the admin office
+     marks the request COMPLETED.
+
+CLEAR — Document Tracking System

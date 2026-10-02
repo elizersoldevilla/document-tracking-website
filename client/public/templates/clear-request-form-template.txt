@@ -1,0 +1,37 @@
+CLEAR — Document Request Form Template
+======================================
+
+Copy this template into your request description when submitting.
+
+REQUEST SUMMARY
+---------------
+Student name     :
+Student email    :
+Student number   :
+Document needed  :
+Purpose          : (subject, application, or requirement the document serves)
+Deadline         : (if any)
+Preferred pickup : (office / date / time)
+
+DETAILS
+-------
+Background:
+  -
+
+Specifics of the document requested:
+  -
+
+Supporting context (subject, course, application reference):
+  -
+
+Notes for the reviewer:
+  -
+
+CHECKLIST BEFORE SUBMITTING
+---------------------------
+[ ] Title is clear and specific (for example: "Barangay clearance for on-the-job training")
+[ ] Description is at least 10 characters and explains what is needed
+[ ] Professor selector matches the reviewer who knows the request
+[ ] Deadline is included when the request is time-sensitive
+
+CLEAR — Document Tracking System

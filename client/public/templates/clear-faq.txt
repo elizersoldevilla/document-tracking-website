@@ -1,0 +1,34 @@
+CLEAR — Frequently Asked Questions
+===================================
+
+Q: How do I submit a document request?
+A: Open New request, pick the professor who will review it, enter a title and a
+   description of at least 10 characters, then submit. The request enters the
+   queue immediately.
+
+Q: How do I track a request?
+A: The dashboard shows your current status, next action, and workflow steps.
+   The Application page shows submission dates and requirements; the document
+   page shows the full status history.
+
+Q: Can I edit a request after submitting it?
+A: Requests are immutable after submission. Their status evolves through
+   recorded decisions instead. Submit a new request for a different document.
+
+Q: Who can approve my request?
+A: Your selected professor reviews and approves, then endorses it to the admin
+   office. The administration processes endorsed requests and releases them.
+
+Q: What do remarks mean?
+A: Remarks are notes recorded by a professor or admin alongside a decision.
+   They appear on your Revision Desk and in your notifications.
+
+Q: Why did I get a "too many attempts" error on the login page?
+A: The login is rate limited to 10 attempts per 15 minutes per IP address.
+   Wait for the window to reset and try again.
+
+Q: Where is my data stored?
+A: Requests, statuses, and history are stored on the CLEAR server database.
+   Notification read flags are stored locally in your browser.
+
+CLEAR — Document Tracking System
